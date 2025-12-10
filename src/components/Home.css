@@ -1,0 +1,100 @@
+.container {
+  max-width: 900px;
+ margin-top: 3%;
+ margin-left: auto;
+ margin-right: auto;
+  padding: 40px;
+  height:75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 2px dashed #4f46e5;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+}
+
+.box h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.box p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileLabel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.fileLabel:hover {
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+.fileIcon {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.convertBtn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.convertBtn:hover {
+  background-color: #1e40af;
+}
+
+.convertBtn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}

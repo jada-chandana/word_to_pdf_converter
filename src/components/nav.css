@@ -1,0 +1,40 @@
+.navbar {
+  max-width: 1536px;        
+  margin: 0 auto;           
+  padding: 12px 40px;       
+  position: fixed;          
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);  
+  background: white;
+  z-index: 1000;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.highlight {
+  font-size: 30px;
+  color: #22c55e; 
+}
+
+.nav-item {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.25);   
+}
