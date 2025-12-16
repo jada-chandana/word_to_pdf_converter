@@ -41,4 +41,5 @@
 .head {
   letter-spacing: -0.5px;   /* decrease spacing */
   justify-content: center;
+  margin-left:25%;
 }
