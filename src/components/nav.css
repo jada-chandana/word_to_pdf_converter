@@ -38,3 +38,7 @@
 .nav-item:hover {
   transform: scale(1.25);   
 }
+.head {
+  letter-spacing: -0.5px;   /* decrease spacing */
+  justify-content: center;
+}
